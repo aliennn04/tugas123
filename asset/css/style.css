@@ -1,0 +1,85 @@
+body{
+  padding: 0px;
+  margin: 0px;
+  background-color: white;
+}
+
+.logo{
+ display: flex;
+
+}
+h2{
+  text-align: center;
+}
+nav{
+  margin-top: -20px;
+  z-index: 999;
+  border: 2px;
+  background-color: white;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  outline:8px ;
+  outline-color: black;
+  box-shadow: 0px 1px 19px 08px rgb(0 ,0 ,0 , 0.10);
+  position: sticky;
+  top: 0;
+}
+img{
+  height: 60px;
+  width: 60px;
+  padding-bottom: 10px;
+}
+ul{
+  display: flex;
+  padding-top: 10px; 
+  padding-right: 50px;
+}
+li{
+ font-family: sans-serif;
+ 
+}
+a{
+  text-decoration: none;
+  padding: 30px;
+  color: black;
+  
+}
+.aktif{
+  color:blue;
+  font-weight: bold;
+}
+.aktif :hover{
+  color: black;
+  cursor: pointer;
+}
+.content{
+  padding-top: 4%;
+  width: 100%;
+  height: wrap;
+}
+.one{
+  display: flex;
+  justify-content: space-between;
+  padding: 2%;
+
+}
+.two{
+  display: flex;
+  justify-content: space-between;
+  padding: 2%;
+}
+.left{
+  width: 40%;
+  height: 200px;
+}
+.left img{
+  width: 70%;
+  height: 80%;
+}
+.right{
+  width: 45%;
+  height: 200px;
+
+}
